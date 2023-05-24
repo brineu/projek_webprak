@@ -8,7 +8,7 @@
   <form action = "/data_pasien" method="POST">
             @csrf
             <div class="mb-3">
-              <label for="exampleInputEmail1">Nama Pasien</label>
+              <label for="exampleInputEmail1">Name Patient</label>
               <input type="text" class="form-control" id="Patient_Name" name="Patient_Name">
               @error('Patient_Name')
                     <small class="text-danger">{{ $message }}</small>
